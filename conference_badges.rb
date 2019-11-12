@@ -19,5 +19,5 @@ def assign_rooms(array)
   speakers << ("Hello #{name}! You'll be assigned to #{room}")
   counter +=
 end
-return array
+return speakers
 end  
