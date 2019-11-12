@@ -15,6 +15,7 @@ end
 def assign_rooms(array)
   speakers = []
   counter = 1
+  until counter == 7
   array.each do |speaker|
   speakers.push("Hello #{name}! You'll be assigned to room #{counter}")
   counter += 1
