@@ -13,7 +13,7 @@ return newarray
 end
 
 def assign_rooms(array)
-  speakers[]
+  speakers = []
   counter = 1
   array.each do |speaker|
   speakers << ("Hello #{name}! You'll be assigned to #{room}")
