@@ -23,5 +23,6 @@ return speakers
 end  
 
 def printer (array)
-  batch_badge_creator(array).each ||
+  batch_badge_creator(array).each |id|
+  puts id
 end 
