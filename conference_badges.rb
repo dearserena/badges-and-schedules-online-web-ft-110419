@@ -22,5 +22,6 @@ end
 return speakers
 end  
 
-def printer ()
+def printer (array)
+  
 end 
