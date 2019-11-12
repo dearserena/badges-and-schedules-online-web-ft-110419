@@ -5,7 +5,8 @@ def badge_maker(name)
 end 
 
 def batch_badge_creator(array)
-  array.push()
+  array.each
+  .push()
 end 
 
 def assign_rooms(speakers)
