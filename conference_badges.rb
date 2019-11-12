@@ -9,6 +9,8 @@ def batch_badge_creator(array)
   array.push("Hello, my name is #{name}.")
 end 
 return array
+end
+
 def assign_rooms(speakers)
   array[]
   speakers.each do |speaker|
